@@ -11,12 +11,12 @@
 animations = [ {
 "frames": [ ExtResource( 2 ), ExtResource( 3 ) ],
 "loop": true,
-"name": "Right",
+"name": "right",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 4 ), ExtResource( 5 ) ],
 "loop": true,
-"name": "Up",
+"name": "up",
 "speed": 5.0
 } ]
 
@@ -47,7 +47,7 @@ speed = 400
 
 scale = Vector2( 0.5, 0.5 )
 frames = SubResource( 1 )
-animation = "Right"
+animation = "right"
 _sections_unfolded = [ "Transform" ]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." index="1"]
